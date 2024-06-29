@@ -37,7 +37,7 @@
     color: #0a9231;
 }
 
-#products{
+#products, footer{
     background-color: #0a9231;
 }
 #products .nav .nav-link{
@@ -53,6 +53,9 @@
 }
 #contact label{
     cursor: pointer;
+}
+#contact textarea{
+    resize: none;
 }
 
 .social-links{
