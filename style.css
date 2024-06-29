@@ -29,9 +29,21 @@
 .store-name{
     font-family: "Tilt Prism", cursive;
 }
+
 #custom-order{
     background-color:#badbc3;
 }
 .text-green{
+    color: #0a9231;
+}
+
+#products{
+    background-color: #0a9231;
+}
+#products .nav .nav-link{
+    color: white;
+}
+#products .nav .nav-link.active{
+    background-color: white;
     color: #0a9231;
 }
