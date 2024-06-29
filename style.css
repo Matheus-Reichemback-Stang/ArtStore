@@ -14,3 +14,18 @@
 .carousel-control-prev-icon, .carousel-control-next-icon{
     background-color: #0a9231;
 }
+#about{
+    background-color: #00b333b3;
+}
+.titleStyle-first{
+    font-family: 'MuseoModerno', cursive;
+}
+.titleStyle-second{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+.textStyle{
+    font-family: "Roboto mono", monospace;
+}
+.store-name{
+    font-family: "Tilt Prism", cursive;
+}
