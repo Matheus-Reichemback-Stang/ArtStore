@@ -8,3 +8,9 @@
 #header .nav .nav-link.active{
     background-color: #0a9231;
 }
+.carousel img{
+    height: 700px;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: #0a9231;
+}
