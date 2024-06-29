@@ -1,0 +1,10 @@
+#header{
+    background-color: #00b032;
+}
+#header h1{
+    font-family: "Tilt Prism", cursive;
+    font-size: 60px;
+}
+#header .nav .nav-link.active{
+    background-color: #0a9231;
+}
