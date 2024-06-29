@@ -9,7 +9,7 @@
     background-color: #0a9231;
 }
 .carousel img{
-    height: 700px;
+    height: 100vh;
 }
 .carousel-control-prev-icon, .carousel-control-next-icon{
     background-color: #0a9231;
@@ -63,4 +63,10 @@
 }
 .social-links li{
     list-style: none;
+}
+
+@media screen and (max-width:767px){
+    .carousel img{
+        height: 30vh;
+    }
 }
