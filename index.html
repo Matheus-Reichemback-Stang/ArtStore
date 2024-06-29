@@ -13,8 +13,8 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header id="header">
-        <div class="navbar navbar-expand-lg">
+    <header id="header" class="sticky-top">
+        <div" class="navbar navbar-expand-lg">
             <div class="container">
                 <div class="navbar-brand p-0">
                     <h1 class="m-0"><span class="text-white">A</span>rt<span class="text-white">S</span>tore</h1>
@@ -25,25 +25,25 @@
                 <nav id="menu" class="navbar-collapse collapse justify-content-end">
                     <ul class="nav navbar-nav nav-pills">
                         <li class="nav-item">
-                            <a href="#" class="nav-link text-center fw-bold text-white active">
+                            <a href="#about" class="nav-link text-center fw-bold text-white active">
                                 <i class="bi bi-house-door me-1"></i>
                                 Sobre a loja
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link text-center fw-bold text-white">
+                            <a href="#custom-order" class="nav-link text-center fw-bold text-white">
                                 <i class="bi bi-pencil me-1"></i>
                                 Personalizações
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link text-center fw-bold text-white">
+                            <a href="#products" class="nav-link text-center fw-bold text-white">
                                 <i class="bi bi-bag-fill me-1"></i>
                                 Produtos
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link text-center fw-bold text-white">
+                            <a href="#contact" class="nav-link text-center fw-bold text-white">
                                 <i class="bi bi-chat-left-text me-1"></i>
                                 Fale conosco
                             </a>
@@ -53,7 +53,7 @@
             </div>
         </div>
     </header>
-    <div>
+    <div data-bs-spy="scroll" data-bs-target="#header" data-bs-smooth-scroll="true">
         <section>
             <div id="carouselID" class="carousel carousel-fade slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
