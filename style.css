@@ -30,7 +30,7 @@
     font-family: "Tilt Prism", cursive;
 }
 
-#custom-order{
+#custom-order, #contact{
     background-color:#badbc3;
 }
 .text-green{
@@ -46,4 +46,18 @@
 #products .nav .nav-link.active{
     background-color: white;
     color: #0a9231;
+}
+
+#contact h2{
+    font-family: "Cinzel", serif;
+}
+#contact label{
+    cursor: pointer;
+}
+
+.social-links{
+    display: flex;
+}
+.social-links li{
+    list-style: none;
 }
